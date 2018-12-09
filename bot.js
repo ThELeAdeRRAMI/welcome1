@@ -4,10 +4,10 @@ console.log("Scrpit By Dream");
 
 
 client.on('guildMemberAdd', member => {
-const mohamed= member.guild.channels.get("515891018088972290");
+const mohamed= member.guild.channels.get("520292865092616203");
 if(!mohamed) return;
 if(mohamed) {
-setTimeout(() => mohamed.send(`**** Welcome To HmasaT Server.. ***`), 4000)        
+setTimeout(() => mohamed.send(` **.. Welcome To, - __Future__ Community. :leaves::tulip:** `), 4000)        
 }
 });
 
@@ -15,7 +15,7 @@ client.on('guildMemberAdd', member => {
 const mohamed= member.guild.channels.get("517314499842408471");
 if(!mohamed) return;
 if(mohamed) {
-setTimeout(() => mohamed.send(`__ WēŁçØmĘ Ťö ** Last Night ** ŞėŘvËŕ... __`), 4000)        
+setTimeout(() => mohamed.send(`__ WēŁçØmĘ Ťö ** Number One ** ŞėŘvËŕ... __`), 4000)        
 }
 });
 client.login(process.env.BOT_TOKEN); 
