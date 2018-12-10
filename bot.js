@@ -18,4 +18,10 @@ if(mohamed) {
 setTimeout(() => mohamed.send(`__ WēŁçØmĘ Ťö ** Number One ** ŞėŘvËŕ... __`), 4000)        
 }
 });
+
+client.on('message', msg => {
+  if (msg.content === '**.. Welcome To, - __Future__ Community. :leaves::tulip:..**') {      
+    msg.channel.send(".")
+  }
+});
 client.login(process.env.BOT_TOKEN); 
